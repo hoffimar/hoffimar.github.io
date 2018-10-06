@@ -5,6 +5,8 @@
 layout: home
 ---
 
-[TimerDroid][timerdroid-page]
+1. [TimerDroid][timerdroid-page]
+2. [Android Number Memory Trainer][numbermemorytrainer-page]
 
 [timerdroid-page]: {{ site.baseurl }}{% link pages/timerdroid/index.md %}
+[numbermemorytrainer-page]: {{ site.baseurl }}{% link pages/numbermemorytrainer/index.md %}
