@@ -6,7 +6,7 @@ permalink: /imprint
 
 {% capture string_with_newlines %}
 Martin Hoffmann
-Stifterstr. 17d
+Zeitzer Str. 31
 07743 Jena
 Germany
 

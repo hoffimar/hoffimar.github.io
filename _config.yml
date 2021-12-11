@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: hoffimar's site
+#title: hoffimar's site
+title: Weihnachten 2021
 email: your.android.developer+11@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hoffimar's website on mobile app development. Apps include TimerDroid, Timer and Countdown, Loci Method Trainer
+  Weihnachtsmann's Homepage
+#Hoffimar's website on mobile app development. Apps include TimerDroid, Timer and Countdown, Loci Method Trainer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hoffimar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -25,14 +27,22 @@ github_username:  hoffimar
 # Build settings
 markdown: kramdown
 theme: minima
+#remote_theme: pages-themes/merlot@v0.2.0
 # theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+- pages/numbermemorytrainer/index.md
+- pages/timerdroid/index.md
+- pages/timerdroid/privacy.md
+- about.md
+- imprint.md
+- index.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
